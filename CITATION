@@ -1,0 +1,8 @@
+citEntry(entry="TechReport",
+  author = {Nyangoma, S. O.},
+  title = {clippda: A package for clinical proteomic profiling data analysis},
+  year = {2009},
+  month = {Jan},
+  institution = {Cancer Research UK Clinical Trials Unit, School of Cancer Sciences, University of Birmingham, Edgbaston,  Birmingham B15 2TT, UK},
+  type = {Biostatistics Working Papers},
+    number={3})

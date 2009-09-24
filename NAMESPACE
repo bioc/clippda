@@ -1,0 +1,32 @@
+exportPattern("^[[:alpha:]]+")
+export("sampleClusteredData")
+export("negativeIntensitiesCorrection")
+exportClasses("aclinicalProteomicsData")
+importFrom(methods,show)
+exportMethods(show)
+importFrom(methods,setGeneric)
+
+importFrom(graphics, abline, contour, mtext, par, points, text)
+
+importFrom(grDevices, dev.off, pdf, replayPlot)
+
+importFrom(limma, avedups, duplicateCorrelation, is.fullrank,
+           makeUnique, normalizeWithinArrays)
+
+importFrom(Biobase)
+
+importFrom(tools)
+
+importFrom(scatterplot3d, scatterplot3d)
+
+importFrom(statmod, mixedModel2)
+
+importFrom(stats, as.ts, coef, cor, dendrapply, deviance, end, formula,
+           frequency, IQR, is.leaf, knots, lm, median, naprint, pf,
+           pnorm, print.anova, printCoefmat, pt, qnorm, quantile,
+           reformulate, residuals, start, symnum, terms, time, ts, tsp,
+           write.ftable, xtabs)
+
+importFrom(utils, browseURL, menu, str, toBibtex, zip.file.extract)
+
+exportPattern("^[^\\]")
