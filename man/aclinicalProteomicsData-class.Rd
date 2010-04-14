@@ -14,7 +14,7 @@ the number of peaks of interest.
 Objects can be created by calls of the form \code{new("aclinicalProteomicsData", ...)}.
 }
 \section{Slots}{
-	 \describe{
+  \describe{
     \item{\code{rawSELDIdata}:}{Object of class \code{"matrix"}}
     \item{\code{phenotypicData}:}{Object of class \code{"matrix"}}
     \item{\code{variableClass}:}{Object of class \code{"character"}}
@@ -23,10 +23,25 @@ Objects can be created by calls of the form \code{new("aclinicalProteomicsData",
   }
 }
 \section{Methods}{
-No methods defined with class "aclinicalProteomicsData" in the signature.
+  \describe{
+    \item{show:}{Display an \code{aclinicalProteomicsData} instance.}
+}
+  
+%No methods defined with class "aclinicalProteomicsData" in the signature.
 }
 \author{S Nyangoma }
 \examples{
 showClass("aclinicalProteomicsData")
+
+data(liverdata)
+data(liver_pheno)
+
+OBJECT = new("aclinicalProteomicsData",
+             rawSELDIdata=as.matrix(liverdata),
+             phenotypicData=as.matrix(liver_pheno),
+             variableClass=c('numeric','factor','factor'),
+             no.peaks=53)
+
+show(OBJECT)
 }
 \keyword{classes}

@@ -25,7 +25,7 @@ cat("number of peaks	:", paste(object@no.peaks), "\n")
 
 slotNames( new("clinicalProteomicsData"))
 
-library(clippda)
+## library(clippda)
 data(liverdata)
 data(liver_pheno)
 
