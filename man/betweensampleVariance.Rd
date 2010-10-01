@@ -1,5 +1,4 @@
 \name{betweensampleVariance}
-\docType{genericFunction}
 \alias{betweensampleVariance}
 \alias{betweensampleVariance,aclinicalProteomicsData}
 \alias{biologicalVariance}
