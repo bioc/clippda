@@ -19,5 +19,5 @@ Collate: checkNo.replicates.R sampleClusteredData.R
 LazyLoad: yes
 ZipData: yes
 URL: http://www.cancerstudies.bham.ac.uk/crctu/CLIPPDA.shtml
-biocViews: Proteomics, OneChannel, DataPreprocessing,Bioinformatics,DifferentialExpression, MultipleComparisons, SampleSize
+biocViews: Proteomics, OneChannel, Bioinformatics,DifferentialExpression, MultipleComparisons, SampleSize
 
