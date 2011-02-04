@@ -17,7 +17,6 @@ Collate: checkNo.replicates.R sampleClusteredData.R
         betweensampleVariance.Method.R fisherInformation.Method.R 
         proteomicsExprsData.Method.R proteomicspData.Method.R 	  replicateCorrelations.Method.R sampleSizeMethod.R    	  sampleSizeParameters.Method.R sample_technicalVariance.Method.R
 LazyLoad: yes
-ZipData: yes
 URL: http://www.cancerstudies.bham.ac.uk/crctu/CLIPPDA.shtml
 biocViews: Proteomics, OneChannel, Bioinformatics,DifferentialExpression, MultipleComparisons, SampleSize
 
