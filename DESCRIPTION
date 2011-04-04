@@ -1,6 +1,6 @@
 Package: clippda
 Title: A package for the clinical proteomic profiling data analysis
-Version: 1.5.1
+Version: 1.1.3
 Date: 2009/09/20
 Author: Stephen Nyangoma
 Description: Methods for the nalysis of data from clinical proteomic profiling studies. The focus is on the studies of human subjects, 	which are often observational case-control by design and have 	technical replicates. A method for sample size determination for 	planning these studies is proposed. It incorporates routines for 	adjusting for the expected heterogeneities and imbalances in the 	data and the within-sample replicate correlations. 
@@ -17,6 +17,7 @@ Collate: checkNo.replicates.R sampleClusteredData.R
         betweensampleVariance.Method.R fisherInformation.Method.R 
         proteomicsExprsData.Method.R proteomicspData.Method.R 	  replicateCorrelations.Method.R sampleSizeMethod.R    	  sampleSizeParameters.Method.R sample_technicalVariance.Method.R
 LazyLoad: yes
+ZipData: yes
 URL: http://www.cancerstudies.bham.ac.uk/crctu/CLIPPDA.shtml
-biocViews: Proteomics, OneChannel, Bioinformatics,DifferentialExpression, MultipleComparisons, SampleSize
-
+biocViews: Proteomics, OneChannel, DataPreprocessing,Bioinformatics,DifferentialExpression, MultipleComparisons, SampleSize
+Packaged: 2011-04-04 20:30:12 UTC; cwon2
