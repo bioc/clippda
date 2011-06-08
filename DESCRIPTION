@@ -20,4 +20,3 @@ LazyLoad: yes
 ZipData: yes
 URL: http://www.cancerstudies.bham.ac.uk/crctu/CLIPPDA.shtml
 biocViews: Proteomics, OneChannel, DataPreprocessing,Bioinformatics,DifferentialExpression, MultipleComparisons, SampleSize
-Packaged: 2011-04-04 20:30:12 UTC; cwon2
