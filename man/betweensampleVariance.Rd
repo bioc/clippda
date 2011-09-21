@@ -1,6 +1,5 @@
 \name{betweensampleVariance}
 \alias{betweensampleVariance}
-\alias{betweensampleVariance,aclinicalProteomicsData}
 \alias{biologicalVariance}
 \title{A generic function for computing the biological variance and mean differences 
 between cases and controls}
