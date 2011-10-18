@@ -3,8 +3,6 @@
 \docType{class}
 \alias{aclinicalProteomicsData-class}
 \alias{aclinicalProteomicsData}
-\alias{show,aclinicalProteomicsData-method}
-
 \title{Class "aclinicalProteomicsData"}
 \description{This is a class object for the mass spectrometry data sets, which 
 are in the same format as the raw data from the Biomarkers wizard software. 
