@@ -101,10 +101,11 @@ Birkner, et al. Issues of processing and multiple testing of
 SELDI-TOF MS Proteomic Data. Stat Appl Genet Mol Biol 2006, 
 5.1
 
-Nyangoma SO, Ferreira JA, Collins SI, Altman DG, Johnson PJ, and
-Billingham LJ: Sample size calculations for planning clinical
-proteomic profiling studies using mass spectrometry. 
-Bioinformatics (Submitted)
+Nyangoma, Stephen O.; Collins, Stuart I.; Altman, Douglas G.; Johnson, Philip;
+and Billingham, Lucinda J. (2012) Sample Size Calculations for Designing
+Clinical Proteomic Profiling Studies Using Mass Spectrometry, Statistical
+Applications in Genetics and Molecular Biology: Vol. 11:
+Iss. 3, Article 2. 
 
 Nyangoma SO, et al. Multiple Testing Issues in Discriminating 
 Compound-Related 

@@ -1,5 +1,0 @@
-citEntry(entry="Manual",
-  title="clippda: A package for clinical proteomic profiling data analysis",
-author=personList(as.person("Stephen Nyangoma")),  
-  year = 2009)
-
