@@ -27,6 +27,6 @@ importFrom(stats, as.ts, coef, cor, dendrapply, deviance, end, formula,
            reformulate, residuals, start, symnum, terms, time, ts, tsp,
            write.ftable, xtabs)
 
-importFrom(utils, browseURL, menu, str, toBibtex, zip.file.extract)
+importFrom(utils, browseURL, menu, str, toBibtex)
 
 exportPattern("^[^\\]")
