@@ -23,7 +23,7 @@ importFrom(statmod, mixedModel2)
 
 importFrom(stats, as.ts, coef, cor, dendrapply, deviance, end, formula,
            frequency, IQR, is.leaf, knots, lm, median, naprint, pf,
-           pnorm, print.anova, printCoefmat, pt, qnorm, quantile,
+           pnorm, printCoefmat, pt, qnorm, quantile,
            reformulate, residuals, start, symnum, terms, time, ts, tsp,
            write.ftable, xtabs)
 
