@@ -1,24 +1,38 @@
 Package: clippda
 Title: A package for the clinical proteomic profiling data analysis
-Version: 1.13.2
+Version: 1.13.3
 Date: 2011/09/16
 Author: Stephen Nyangoma
-Description: Methods for the nalysis of data from clinical proteomic profiling studies. The focus is on the studies of human subjects, 	which are often observational case-control by design and have 	technical replicates. A method for sample size determination for 	planning these studies is proposed. It incorporates routines for 	adjusting for the expected heterogeneities and imbalances in the 	data and the within-sample replicate correlations. 
-Depends: R (>= 2.13.1),limma, statmod, rgl, lattice, scatterplot3d, graphics, grDevices, stats, utils, Biobase, tools, methods
+Description: Methods for the nalysis of data from clinical proteomic
+        profiling studies. The focus is on the studies of human
+        subjects, which are often observational case-control by design
+        and have technical replicates. A method for sample size
+        determination for planning these studies is proposed. It
+        incorporates routines for adjusting for the expected
+        heterogeneities and imbalances in the data and the
+        within-sample replicate correlations.
+Depends: R (>= 2.13.1),limma, statmod, rgl, lattice, scatterplot3d,
+        graphics, grDevices, stats, utils, Biobase, tools, methods
 Maintainer: Stephen Nyangoma <s.o.nyangoma@bham.ac.uk>
 License: GPL (>=2)
 Collate: checkNo.replicates.R sampleClusteredData.R
         sampleSize3DscatterPlots.R sampleSizeContourPlots.R
         mostSimilarTwo.R negativeIntensitiesCorrection.R
-        phenoDataFrame.R preProcRepeatedPeakData.R spectrumFilter.R f.R ztwo.R ZvaluescasesVcontrolsPlots.R ZvaluesfrommultinomPlots.R
-        betweensampleVariance.Generic.R fisherInformation.Generic.R 
-	  proteomicsExprsData.Generic.R proteomicspData.Generic.R 		  replicateCorrelations.Generic.R sampleSizeGeneric.R 	  sampleSizeParameters.Generic.R 	  sample_technicalVaraiance.Generic.R
+        phenoDataFrame.R preProcRepeatedPeakData.R spectrumFilter.R f.R
+        ztwo.R ZvaluescasesVcontrolsPlots.R ZvaluesfrommultinomPlots.R
+        betweensampleVariance.Generic.R fisherInformation.Generic.R
+        proteomicsExprsData.Generic.R proteomicspData.Generic.R
+        replicateCorrelations.Generic.R sampleSizeGeneric.R
+        sampleSizeParameters.Generic.R
+        sample_technicalVaraiance.Generic.R
         aclinicalProteomicData.class.R aclinicalProteomicData.methods.R
-         betweensampleVariance.Method.R fisherInformation.Method.R 
-        proteomicsExprsData.Method.R proteomicspData.Method.R 	  replicateCorrelations.Method.R sampleSizeMethod.R    	  sampleSizeParameters.Method.R sample_technicalVariance.Method.R
+        betweensampleVariance.Method.R fisherInformation.Method.R
+        proteomicsExprsData.Method.R proteomicspData.Method.R
+        replicateCorrelations.Method.R sampleSizeMethod.R
+        sampleSizeParameters.Method.R sample_technicalVariance.Method.R
 LazyLoad: yes
 ZipData: yes
 URL: http://www.cancerstudies.bham.ac.uk/crctu/CLIPPDA.shtml
-biocViews: Proteomics, OneChannel, DataPreprocessing,Bioinformatics,DifferentialExpression, MultipleComparisons, SampleSize
 Packaged: Fri September 16 13:05:59 2011; snyangoma
-
+biocViews: Proteomics, OneChannel, Preprocessing,
+        DifferentialExpression, MultipleComparison, SampleSize
